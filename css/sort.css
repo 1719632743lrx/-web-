@@ -1,0 +1,145 @@
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #f3f4f6;
+  
+}
+.header a {
+  height: 22px;
+  position: absolute;
+  display: block;
+  background-image: url(../images/jd-sprites.png);
+  background-size: 200px;
+}
+.header a:first-child {
+  width: 20px;
+  top: 15px;
+  left: 10px;
+  background-position: 178px 0;
+ 
+}
+
+.header a:nth-child(2) {
+  top: 15px;
+  right: 10px;
+  width: 24px;
+  height: 22px;
+  float: right;
+  background-position: -59px 0;
+
+}
+.header .search {
+  height: 30px;
+  margin :0 44px;
+
+}
+.header .search input{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.sort {
+  width: 90px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  padding-top: 48px;
+}
+.sort li {
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  line-height: 49px;
+  border-bottom: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  background-color: #f3f4f6;
+}
+.sort li a {
+  font-size: 13px;
+  color: #252525;
+
+}
+.sort ul li:first-child ,.sort li:first-child a {
+  background-color: #fff;
+  color: red;
+  border-right: none;
+}
+
+.goods {
+  width: auto;
+  height: 100%;
+  margin-left: 92px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.goods .title {
+  margin-top: 62px;
+  color: #888;
+  font-size: 14px;
+}
+.goods .nav {
+  box-sizing: border-box;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.goods .nav li {
+  width: 32.33%;
+  float: left;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #fff;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.goods .nav li:nth-child(-n+3) {
+  border-top: 1px solid #e0e0e0;
+}
+.goods .nav li:nth-child(4) {
+  border-left: 1px solid #e0e0e0;
+}
+
+.goods .nav li:nth-child(7) {
+  border-left: 1px solid #e0e0e0;
+}
+.goods .nav li:first-child {
+  border-left: 1px solid #e0e0e0;
+
+}
+.goods .nav li a {
+  font-size: 14px;
+  color: #252525;
+}
+
+.hot {
+  margin-top: 15px;
+  text-align: center;
+  overflow: hidden;
+
+}
+.hot ul li {
+  width: 33%;
+  float: left;
+
+}
+.hot ul li a {
+  font-size: 14px;
+  color: #252525;
+}
+.title2 {
+  text-align: left;
+  color: #888;
+}
